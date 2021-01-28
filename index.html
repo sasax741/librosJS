@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/cyborg/bootstrap.min.css">
+	<title>Document</title>
+</head>
+<body>
+	<div class="container mt-4">
+		<h1 class="display-4 text-center">Mi Colección de <span class="text-primary">libros</span></h1>
+		<form class="form-group" id="libro-form">
+			<div class="form-group">
+				<label for="titulo" class="text-primary">Titulo</label>
+				<input type="text" name="titulo" id="titulo" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="autor" class="text-primary">Autor</label>
+				<input type="text" name="autor" id="autor" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="ISBN" class="text-primary">#ISBN</label>
+				<input type="text" name="ISBN" id="ISBN" class="form-control">
+			</div>
+			<input type="submit" name="agregar" value="Agregar un libro a la colección" class="btn btn-primary btn-block">
+		</form>
+		<table class="table table-striped mt-5">
+			<thead class="text-center">
+				<th>Titulo</th>
+				<th>Autor</th>
+				<th>ISBN</th>
+				<th></th>
+			</thead>
+			<tbody class="text-center" id="libro-list"></tbody>
+		</table>
+	</div>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>

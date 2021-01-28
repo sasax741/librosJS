@@ -1,0 +1,19 @@
+{
+  "name": "librosjs",
+  "version": "1.0.0",
+  "description": "app de practica",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sasax741/librosJS.git"
+  },
+  "author": "Luis Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sasax741/librosJS/issues"
+  },
+  "homepage": "https://github.com/sasax741/librosJS#readme"
+}
